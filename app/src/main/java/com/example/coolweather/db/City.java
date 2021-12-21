@@ -10,12 +10,20 @@ public class City extends LitePalSupport {
     private int cityCode;
     private int provinceId;
 
+    public static void test() {
+        // 修改hosts文件，配置github.com网址
+//        关闭vpn
+//        提交成功
+    }
+
     public int getId() {
         return id;
     }
 
     public void setId(int id) {
         this.id = id;
+
+
     }
 
     public String getCityName() {
